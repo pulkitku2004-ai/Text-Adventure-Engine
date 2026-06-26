@@ -1,0 +1,7 @@
+test_machine.py
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env

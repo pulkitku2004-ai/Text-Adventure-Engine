@@ -1,0 +1,26 @@
+{
+    "Hall": {
+        "desc": "It is the first room, where we spawn.",
+        "list": [
+            "key"
+        ],
+        "exits": {
+            "South": "Study"
+        }
+    },
+    "Study": {
+        "desc": "This is where the guard exists if we move towards East, It checks if key is in inventory.",
+        "list": [],
+        "exits": {
+            "North": "Hall",
+            "East": "Vault"
+        }
+    },
+    "Vault": {
+        "desc": "The Goal, the function here rests.",
+        "list": [],
+        "exits": {
+            "Final": "State"
+        }
+    }
+}
